@@ -7,6 +7,8 @@ node: start the node envirment
 _: this mean the previous result of the calculation
 */
 
+// IN NODE.JS, each individual file is treated as a module
+
 // file system modules
 const fs = require("fs");
 // webserver
