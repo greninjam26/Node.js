@@ -1,5 +1,26 @@
+/* NPM
+1. when starting a project we first need to run
+  npm init
+this will create a package.json
+2. then we start to install packages
+
+Packages: there are 2 types(for installiation, we can do npm install, or npm i)
+the reason that the node_modules folder have so many different folders is because the dependencies we installed need dependencies to work
+  1. regular(simple) dependencies: our project need the code from the package to run properly
+    npm install slugify
+  2. developer dependencies: only needed to help with developement, the code of the project don't rely on these dependencies to run. Just addons to help with development
+    npm install nodemon --save-dev
+      nodemon will restart the node application when we make changes to the work directory
+  3. global dependencies: these are the packages that install to work anyway on the machine. This way we don't need to install package like nodemon for every node.js project we create
+    npm i nodemon --global
+    ** for mac this might not work, do this:
+      sudo npm i nodemon --global
+      This will tell you to input the password to login to the macbook
+        Note: it will not display the you have type anything, just type the password and hit return
+ */
+
 /* Commands
-node: start the node envirment
+node(nodemon: with the package it autoupdate the application when the code changes): start the node envirment
   add the file name after will run the fileds
 .exit, control+D: stop the envirment
 [TAB]: list all the variable
