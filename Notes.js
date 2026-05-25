@@ -90,3 +90,11 @@ fs.readFile("./txt/start.txt", "utf-8", (err, data1) => {
 	console.log("Still Reading...");
 });
 console.log("Reading...");
+
+// HTTP and HTTPS: the later have extra ecryption
+// steps to access a website
+// 1. DNS covert the url with domain name to the real url of the website
+// 2. TCP/IP socket connection
+//    break about the responds, send them, then put them back together
+// 3. client send HTTP/HTTPS requests
+// 4. server send HTTP/HTTPS responds
